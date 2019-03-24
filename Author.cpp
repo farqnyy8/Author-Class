@@ -1,6 +1,8 @@
-//Author class .cpp file
+//Implementation of the Author.h file
 
 #include "Author.h"
+
+//using the created namespace
 using namespace author;
 
 Author::Author()
