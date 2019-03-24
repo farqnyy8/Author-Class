@@ -5,9 +5,9 @@ using namespace author;
 
 Author::Author()
 {
-	this->name = "";
-	this->email = "";
-	this->gender = ' ';
+	name = "";
+	email = "";
+	gender = ' ';
 }
 
 Author::Author(string name, string email, char gender)
