@@ -1,10 +1,19 @@
+/*
+created by: Faruq E Hammed
+Date: 01/30/2019
+Language: C++
+*/
+
+
 //Author Class Main Implementation
 
 #include "Author.h"
 using namespace author;
 
 //global variables
+//SIZE purpose: number of elements in array to be created
 const int SIZE = 2;
+
 
 //function declaration
 Author getAuthorInfo();
@@ -19,7 +28,12 @@ main()
 	return 0;
 }
 
-//fucntion definition
+/*
+Function Name: getAuthorInfo()
+Purpose: to get input from the user to create an Author object
+Paramter: Nothing
+Return type: Author
+*/
 Author getAuthorInfo()
 {
 	//local var
