@@ -33,6 +33,8 @@ Function Name: getAuthorInfo()
 Purpose: to get input from the user to create an Author object
 Paramter: Nothing
 Return type: Author
+Notes:
+	*email must contain '@' to be valid. loop using do...while until email is valid 
 */
 Author getAuthorInfo()
 {
