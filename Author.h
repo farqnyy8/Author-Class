@@ -8,22 +8,31 @@
 
 using namespace std;
 
+//learning to create and use namespaces
 namespace author
 {
 	
 	class Author
 	{
-		
 		private:
+			//data fields
 			string name, email;
 			char gender;
+		
 		public:
+			//contructors
 			Author();
 			Author(string, string, char);
+			
+			//accessors
 			string getName();
 			string getEmail();
-			void setEmail(string);
 			char getGender();
+			
+			//mutator
+			void setEmail(string);
+			
+			//behaviors
 			void print();			
 	};
 }
